@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+nav{
+    background-color: #0065C3;
+}
+.nav{
+    display: flex;
+    padding: 1rem 2rem;
+    align-items: center;
+}
+nav ul{
+    display: flex;
+}
+nav .button{
+    margin-left: auto;
+}
+nav .nav_links{
+    margin-left: 4rem;
+}
+.nav_links ul{
+    display: flex;
+    gap: 2rem;
+}
+.nav_links ul a{
+    color: white;
+}
+.button a{
+    color: white;
+    background-color: #0065C3;
+    padding: 0.5rem 1rem;
+    outline: 2px solid white;
+    border-radius: 50px;
+}
+.first_container{
+    background-color: black;
+    display: flex;
+}
+.first_container_left{
+    position: relative;
+}
+.pepsi_landing_text{
+    position: absolute;
+    z-index: 10;
+    top: 120px;
+    left: 440px;
+}
+.iframe{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+.iframe p{
+    color: white;
+    font-size: 0.7rem;
+    text-align: center;
+}
+.first_container_right{
+    margin-top: 10rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+}
+.second_container{
+    background-image: url(https://www.pepsi.com/en-us/uploads/images/nitro/Tablet_Background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+}
+.second_container_left{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+.second_container_right{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+}
+.second_container h2{
+    color: white;
+}
